@@ -1,3 +1,33 @@
+# ========================================
+# Executables (All Platforms)
+# ========================================
 *.exe        # Windows
 *.out        # Linux/Unix compiled binary
 *.app        # macOS application bundles
+*.dylib      # macOS dynamic libraries
+*.dll        # Windows dynamic libraries
+*.so         # Linux/Unix shared objects
+*.a          # Static libraries (Linux/Unix/macOS)
+*.lib        # Windows static libraries
+*.o          # Compiled object files
+*.obj        # Windows object files
+*.pdb        # Windows debug symbols
+*.ilk        # Windows incremental linking files
+
+# ========================================
+# Build Directories
+# ========================================
+/build/
+/bin/
+/obj/
+/out/
+/dist/
+
+# ========================================
+# IDE & Tooling Generated Files
+# ========================================
+*.log
+*.tmp
+*.cache
+*.DS_Store   # macOS Finder metadata
+Thumbs.db    # Windows Explorer metadata
