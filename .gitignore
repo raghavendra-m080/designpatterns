@@ -1,0 +1,3 @@
+*.exe        # Windows
+*.out        # Linux/Unix compiled binary
+*.app        # macOS application bundles
